@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
 
-const text = ref("Hello!");
+const text = ref("Hello Coders!!");
 </script>
 
 <template>
