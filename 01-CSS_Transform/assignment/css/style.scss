@@ -1,3 +1,29 @@
-h1 {
-  color: dodgerblue;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: #e74c3c;
+    border-radius: 15px;
+    animation: spinAndGrow 4s ease-in-out infinite;
+    transform-origin: center;
+}
+
+@keyframes spinAndGrow {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        transform: rotate(180deg) scale(3);
+    }
+    100% {
+        transform: rotate(360deg) scale(1);
+    }
 }
