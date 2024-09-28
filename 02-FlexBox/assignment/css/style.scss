@@ -4,3 +4,62 @@
 @import 'settings.responsive';
 @import 'components.content';
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #F1352B;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: #7ACB00;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    min-height: 80vh; /* Adjust this height as needed */
+}
+
+.sidebar {
+    background-color: #6E27C5;
+    color: white;
+    width: 33.33%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    background-color: #FF6600;
+    width: 66.67%;
+    padding: 10px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #150F96;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
