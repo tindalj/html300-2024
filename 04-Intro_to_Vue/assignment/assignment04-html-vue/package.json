@@ -1,0 +1,38 @@
+{
+  "name": "assignment04-html-vue",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue": "^2.23.1",
+    "bootstrap-vue-next": "^0.24.23",
+    "gulp": "^5.0.0",
+    "popper.js": "^1.16.1",
+    "vue": "^3.4.29",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.2.1",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "prettier": "^3.2.5",
+    "sass": "^1.79.4",
+    "sass-loader": "^16.0.2",
+    "vite": "^5.3.1"
+  }
+}
